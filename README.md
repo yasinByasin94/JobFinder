@@ -3,4 +3,8 @@ JobFinder is a job search solution that looks into many providers and display re
 ## Installation
 - new clone
 - open project
-- $pod install
+- install pod file
+```bash
+$pod install
+```
+- 
