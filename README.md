@@ -7,4 +7,3 @@ JobFinder is a job search solution that looks into many providers and display re
 ```bash
 $pod install
 ```
-- 
