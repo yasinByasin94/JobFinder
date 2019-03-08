@@ -8,6 +8,6 @@ JobFinder is a job search solution that looks into many providers and display re
 $pod install
 ```
 ## Filters
-• By provider
-• By position
-• By Location (autocomplete) using Google APIs
+- By provider
+- By position
+- By Location (autocomplete) using Google APIs
