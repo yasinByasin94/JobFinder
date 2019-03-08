@@ -4,7 +4,6 @@ JobFinder is a job search solution that looks into many providers and display re
 - new clone
 - open project
 - install pod file from tirminal
- use this command
 ```bash
 $pod install
 ```
