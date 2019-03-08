@@ -1,0 +1,20 @@
+PODS:
+  - GooglePlacesSearchController (0.2.1)
+  - Networking (4.4.0)
+
+DEPENDENCIES:
+  - GooglePlacesSearchController
+  - Networking
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GooglePlacesSearchController
+    - Networking
+
+SPEC CHECKSUMS:
+  GooglePlacesSearchController: e53b61b7497cf40cb18ec296b1d3314c11c0a1c0
+  Networking: cbef47ab030af248248c26a696adb88989b52ef1
+
+PODFILE CHECKSUM: fded3dca3f6a03bf6bb8650eba99f2cdd2df43dd
+
+COCOAPODS: 1.6.0.beta.1

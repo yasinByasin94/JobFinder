@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6DB29D02E7175FBC8470B7 /* Pods_jopFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290E5E1DFE7A0A26622BDDBE /* Pods_jopFinderTests.framework */; };
+		78236D01F5C18F2430BEDB5C /* Pods_jopFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E66B8494F1F8A17A0FE393 /* Pods_jopFinderUITests.framework */; };
+		8412F01E222F49270093FB8E /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F01D222F49270093FB8E /* JobCell.swift */; };
+		8412F020222F5AEB0093FB8E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F01F222F5AEB0093FB8E /* UIImageView.swift */; };
+		8412F022222F5EF10093FB8E /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F021222F5EF10093FB8E /* DetailsController.swift */; };
+		848F25B722306F0E0029CA4E /* SearchGov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F25B622306F0E0029CA4E /* SearchGov.swift */; };
+		84CD2CD5222EF87500DE9FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2CD4222EF87500DE9FD6 /* AppDelegate.swift */; };
+		84CD2CD7222EF87500DE9FD6 /* JobListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2CD6222EF87500DE9FD6 /* JobListController.swift */; };
+		84CD2CDA222EF87500DE9FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD2CD8222EF87500DE9FD6 /* Main.storyboard */; };
+		84CD2CDD222EF87500DE9FD6 /* jopFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2CDB222EF87500DE9FD6 /* jopFinder.xcdatamodeld */; };
+		84CD2CDF222EF87500DE9FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CD2CDE222EF87500DE9FD6 /* Assets.xcassets */; };
+		84CD2CE2222EF87500DE9FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD2CE0222EF87500DE9FD6 /* LaunchScreen.storyboard */; };
+		84CD2CED222EF87500DE9FD6 /* jopFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2CEC222EF87500DE9FD6 /* jopFinderTests.swift */; };
+		84CD2CF8222EF87500DE9FD6 /* jopFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2CF7222EF87500DE9FD6 /* jopFinderUITests.swift */; };
+		84CD2D0A222F085200DE9FD6 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D09222F085200DE9FD6 /* Job.swift */; };
+		84CD2D0D222F0A0600DE9FD6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D0C222F0A0600DE9FD6 /* Api.swift */; };
+		84CD2D0F222F0ADA00DE9FD6 /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D0E222F0ADA00DE9FD6 /* Github.swift */; };
+		84CD2D13222F115B00DE9FD6 /* GirdersSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D12222F115B00DE9FD6 /* GirdersSwift.swift */; };
+		84CD2D15222F13E300DE9FD6 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D14222F13E300DE9FD6 /* Global.swift */; };
+		84CD2D19222F258C00DE9FD6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D18222F258C00DE9FD6 /* UIView.swift */; };
+		84CD2D1B222F25ED00DE9FD6 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D1A222F25ED00DE9FD6 /* SearchController.swift */; };
+		84CD2D1D222F33A600DE9FD6 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D1C222F33A600DE9FD6 /* UITextField.swift */; };
+		84CD2D1F222F375300DE9FD6 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD2D1E222F375300DE9FD6 /* BaseController.swift */; };
+		D4C93A23FD28040A0F5AF168 /* Pods_jopFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A43C09B064CF86A46F3A56 /* Pods_jopFinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CD2CE9222EF87500DE9FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD2CC9222EF87400DE9FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD2CD0222EF87400DE9FD6;
+			remoteInfo = jopFinder;
+		};
+		84CD2CF4222EF87500DE9FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD2CC9222EF87400DE9FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD2CD0222EF87400DE9FD6;
+			remoteInfo = jopFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0586E959DC62DAFD8315FD2C /* Pods-jopFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jopFinder.debug.xcconfig"; path = "Target Support Files/Pods-jopFinder/Pods-jopFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		05B79FD4C009573B5A6BFA41 /* Pods-jopFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jopFinderUITests.release.xcconfig"; path = "Target Support Files/Pods-jopFinderUITests/Pods-jopFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		290E5E1DFE7A0A26622BDDBE /* Pods_jopFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jopFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83FFC7F0E03409F08B80D2 /* Pods-jopFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jopFinderTests.release.xcconfig"; path = "Target Support Files/Pods-jopFinderTests/Pods-jopFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		76E66B8494F1F8A17A0FE393 /* Pods_jopFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jopFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF24B74259F548B6A6A43B9 /* Pods-jopFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jopFinder.release.xcconfig"; path = "Target Support Files/Pods-jopFinder/Pods-jopFinder.release.xcconfig"; sourceTree = "<group>"; };
+		8412F01D222F49270093FB8E /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		8412F01F222F5AEB0093FB8E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		8412F021222F5EF10093FB8E /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		848F25B622306F0E0029CA4E /* SearchGov.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGov.swift; sourceTree = "<group>"; };
+		84CD2CD1222EF87500DE9FD6 /* jopFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jopFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD2CD4222EF87500DE9FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CD2CD6222EF87500DE9FD6 /* JobListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListController.swift; sourceTree = "<group>"; };
+		84CD2CD9222EF87500DE9FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CD2CDC222EF87500DE9FD6 /* jopFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jopFinder.xcdatamodel; sourceTree = "<group>"; };
+		84CD2CDE222EF87500DE9FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CD2CE1222EF87500DE9FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CD2CE3222EF87500DE9FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD2CE8222EF87500DE9FD6 /* jopFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jopFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD2CEC222EF87500DE9FD6 /* jopFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jopFinderTests.swift; sourceTree = "<group>"; };
+		84CD2CEE222EF87500DE9FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD2CF3222EF87500DE9FD6 /* jopFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jopFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD2CF7222EF87500DE9FD6 /* jopFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jopFinderUITests.swift; sourceTree = "<group>"; };
+		84CD2CF9222EF87500DE9FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD2D09222F085200DE9FD6 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		84CD2D0C222F0A0600DE9FD6 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		84CD2D0E222F0ADA00DE9FD6 /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
+		84CD2D12222F115B00DE9FD6 /* GirdersSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirdersSwift.swift; sourceTree = "<group>"; };
+		84CD2D14222F13E300DE9FD6 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		84CD2D18222F258C00DE9FD6 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		84CD2D1A222F25ED00DE9FD6 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		84CD2D1C222F33A600DE9FD6 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		84CD2D1E222F375300DE9FD6 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		EFF3704F34E4E0AAC2BEB505 /* Pods-jopFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jopFinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-jopFinderUITests/Pods-jopFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A43C09B064CF86A46F3A56 /* Pods_jopFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jopFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA7DF7B39C1A85F1317C5E4 /* Pods-jopFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jopFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-jopFinderTests/Pods-jopFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CD2CCE222EF87400DE9FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C93A23FD28040A0F5AF168 /* Pods_jopFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD2CE5222EF87500DE9FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6DB29D02E7175FBC8470B7 /* Pods_jopFinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD2CF0222EF87500DE9FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78236D01F5C18F2430BEDB5C /* Pods_jopFinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CD2CC8222EF87400DE9FD6 = {
+			isa = PBXGroup;
+			children = (
+				84CD2CD3222EF87500DE9FD6 /* jopFinder */,
+				84CD2CEB222EF87500DE9FD6 /* jopFinderTests */,
+				84CD2CF6222EF87500DE9FD6 /* jopFinderUITests */,
+				84CD2CD2222EF87500DE9FD6 /* Products */,
+				B2F006794575C0E8E9E84E5E /* Pods */,
+				A7ACBE6A22B3FF23962B76D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84CD2CD2222EF87500DE9FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2CD1222EF87500DE9FD6 /* jopFinder.app */,
+				84CD2CE8222EF87500DE9FD6 /* jopFinderTests.xctest */,
+				84CD2CF3222EF87500DE9FD6 /* jopFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CD2CD3222EF87500DE9FD6 /* jopFinder */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2D07222F081F00DE9FD6 /* Controllers */,
+				84CD2D06222F080A00DE9FD6 /* Models */,
+				84CD2D08222F083200DE9FD6 /* TableCells */,
+				84CD2D0B222F086D00DE9FD6 /* Helpers */,
+				84CD2D17222F255300DE9FD6 /* Custom */,
+				84CD2D16222F148D00DE9FD6 /* Storyboards */,
+				84CD2CD4222EF87500DE9FD6 /* AppDelegate.swift */,
+				84CD2CDE222EF87500DE9FD6 /* Assets.xcassets */,
+				84CD2CE3222EF87500DE9FD6 /* Info.plist */,
+				84CD2CDB222EF87500DE9FD6 /* jopFinder.xcdatamodeld */,
+			);
+			path = jopFinder;
+			sourceTree = "<group>";
+		};
+		84CD2CEB222EF87500DE9FD6 /* jopFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2CEC222EF87500DE9FD6 /* jopFinderTests.swift */,
+				84CD2CEE222EF87500DE9FD6 /* Info.plist */,
+			);
+			path = jopFinderTests;
+			sourceTree = "<group>";
+		};
+		84CD2CF6222EF87500DE9FD6 /* jopFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2CF7222EF87500DE9FD6 /* jopFinderUITests.swift */,
+				84CD2CF9222EF87500DE9FD6 /* Info.plist */,
+			);
+			path = jopFinderUITests;
+			sourceTree = "<group>";
+		};
+		84CD2D06222F080A00DE9FD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2D09222F085200DE9FD6 /* Job.swift */,
+				84CD2D0E222F0ADA00DE9FD6 /* Github.swift */,
+				848F25B622306F0E0029CA4E /* SearchGov.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84CD2D07222F081F00DE9FD6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2D1E222F375300DE9FD6 /* BaseController.swift */,
+				84CD2D1A222F25ED00DE9FD6 /* SearchController.swift */,
+				84CD2CD6222EF87500DE9FD6 /* JobListController.swift */,
+				8412F021222F5EF10093FB8E /* DetailsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84CD2D08222F083200DE9FD6 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				8412F01D222F49270093FB8E /* JobCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		84CD2D0B222F086D00DE9FD6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2D14222F13E300DE9FD6 /* Global.swift */,
+				84CD2D0C222F0A0600DE9FD6 /* Api.swift */,
+				84CD2D12222F115B00DE9FD6 /* GirdersSwift.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84CD2D16222F148D00DE9FD6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2CD8222EF87500DE9FD6 /* Main.storyboard */,
+				84CD2CE0222EF87500DE9FD6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84CD2D17222F255300DE9FD6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				84CD2D18222F258C00DE9FD6 /* UIView.swift */,
+				84CD2D1C222F33A600DE9FD6 /* UITextField.swift */,
+				8412F01F222F5AEB0093FB8E /* UIImageView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A7ACBE6A22B3FF23962B76D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6A43C09B064CF86A46F3A56 /* Pods_jopFinder.framework */,
+				290E5E1DFE7A0A26622BDDBE /* Pods_jopFinderTests.framework */,
+				76E66B8494F1F8A17A0FE393 /* Pods_jopFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F006794575C0E8E9E84E5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0586E959DC62DAFD8315FD2C /* Pods-jopFinder.debug.xcconfig */,
+				7AF24B74259F548B6A6A43B9 /* Pods-jopFinder.release.xcconfig */,
+				FFA7DF7B39C1A85F1317C5E4 /* Pods-jopFinderTests.debug.xcconfig */,
+				2A83FFC7F0E03409F08B80D2 /* Pods-jopFinderTests.release.xcconfig */,
+				EFF3704F34E4E0AAC2BEB505 /* Pods-jopFinderUITests.debug.xcconfig */,
+				05B79FD4C009573B5A6BFA41 /* Pods-jopFinderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CD2CD0222EF87400DE9FD6 /* jopFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD2CFC222EF87500DE9FD6 /* Build configuration list for PBXNativeTarget "jopFinder" */;
+			buildPhases = (
+				B21C6C54E2CCBC1FD8905421 /* [CP] Check Pods Manifest.lock */,
+				84CD2CCD222EF87400DE9FD6 /* Sources */,
+				84CD2CCE222EF87400DE9FD6 /* Frameworks */,
+				84CD2CCF222EF87400DE9FD6 /* Resources */,
+				F3C98C0A604D20CC060027B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jopFinder;
+			productName = jopFinder;
+			productReference = 84CD2CD1222EF87500DE9FD6 /* jopFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CD2CE7222EF87500DE9FD6 /* jopFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD2CFF222EF87500DE9FD6 /* Build configuration list for PBXNativeTarget "jopFinderTests" */;
+			buildPhases = (
+				FF8CC9DEA082B9A2F5CE9064 /* [CP] Check Pods Manifest.lock */,
+				84CD2CE4222EF87500DE9FD6 /* Sources */,
+				84CD2CE5222EF87500DE9FD6 /* Frameworks */,
+				84CD2CE6222EF87500DE9FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD2CEA222EF87500DE9FD6 /* PBXTargetDependency */,
+			);
+			name = jopFinderTests;
+			productName = jopFinderTests;
+			productReference = 84CD2CE8222EF87500DE9FD6 /* jopFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CD2CF2222EF87500DE9FD6 /* jopFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD2D02222EF87500DE9FD6 /* Build configuration list for PBXNativeTarget "jopFinderUITests" */;
+			buildPhases = (
+				A3FF5DF8F377139B847A0522 /* [CP] Check Pods Manifest.lock */,
+				84CD2CEF222EF87500DE9FD6 /* Sources */,
+				84CD2CF0222EF87500DE9FD6 /* Frameworks */,
+				84CD2CF1222EF87500DE9FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD2CF5222EF87500DE9FD6 /* PBXTargetDependency */,
+			);
+			name = jopFinderUITests;
+			productName = jopFinderUITests;
+			productReference = 84CD2CF3222EF87500DE9FD6 /* jopFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CD2CC9222EF87400DE9FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Yasin;
+				TargetAttributes = {
+					84CD2CD0222EF87400DE9FD6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84CD2CE7222EF87500DE9FD6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84CD2CD0222EF87400DE9FD6;
+					};
+					84CD2CF2222EF87500DE9FD6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84CD2CD0222EF87400DE9FD6;
+					};
+				};
+			};
+			buildConfigurationList = 84CD2CCC222EF87400DE9FD6 /* Build configuration list for PBXProject "jopFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CD2CC8222EF87400DE9FD6;
+			productRefGroup = 84CD2CD2222EF87500DE9FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CD2CD0222EF87400DE9FD6 /* jopFinder */,
+				84CD2CE7222EF87500DE9FD6 /* jopFinderTests */,
+				84CD2CF2222EF87500DE9FD6 /* jopFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CD2CCF222EF87400DE9FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD2CE2222EF87500DE9FD6 /* LaunchScreen.storyboard in Resources */,
+				84CD2CDF222EF87500DE9FD6 /* Assets.xcassets in Resources */,
+				84CD2CDA222EF87500DE9FD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD2CE6222EF87500DE9FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD2CF1222EF87500DE9FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3FF5DF8F377139B847A0522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jopFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21C6C54E2CCBC1FD8905421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jopFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C98C0A604D20CC060027B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jopFinder/Pods-jopFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GooglePlacesSearchController/GooglePlacesSearchController.framework",
+				"${BUILT_PRODUCTS_DIR}/Networking/Networking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GooglePlacesSearchController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Networking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jopFinder/Pods-jopFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF8CC9DEA082B9A2F5CE9064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jopFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CD2CCD222EF87400DE9FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD2D15222F13E300DE9FD6 /* Global.swift in Sources */,
+				84CD2D1B222F25ED00DE9FD6 /* SearchController.swift in Sources */,
+				8412F020222F5AEB0093FB8E /* UIImageView.swift in Sources */,
+				84CD2D0F222F0ADA00DE9FD6 /* Github.swift in Sources */,
+				84CD2CDD222EF87500DE9FD6 /* jopFinder.xcdatamodeld in Sources */,
+				84CD2D0A222F085200DE9FD6 /* Job.swift in Sources */,
+				8412F01E222F49270093FB8E /* JobCell.swift in Sources */,
+				8412F022222F5EF10093FB8E /* DetailsController.swift in Sources */,
+				84CD2CD7222EF87500DE9FD6 /* JobListController.swift in Sources */,
+				84CD2D0D222F0A0600DE9FD6 /* Api.swift in Sources */,
+				84CD2CD5222EF87500DE9FD6 /* AppDelegate.swift in Sources */,
+				84CD2D1D222F33A600DE9FD6 /* UITextField.swift in Sources */,
+				848F25B722306F0E0029CA4E /* SearchGov.swift in Sources */,
+				84CD2D19222F258C00DE9FD6 /* UIView.swift in Sources */,
+				84CD2D1F222F375300DE9FD6 /* BaseController.swift in Sources */,
+				84CD2D13222F115B00DE9FD6 /* GirdersSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD2CE4222EF87500DE9FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD2CED222EF87500DE9FD6 /* jopFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD2CEF222EF87500DE9FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD2CF8222EF87500DE9FD6 /* jopFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CD2CEA222EF87500DE9FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD2CD0222EF87400DE9FD6 /* jopFinder */;
+			targetProxy = 84CD2CE9222EF87500DE9FD6 /* PBXContainerItemProxy */;
+		};
+		84CD2CF5222EF87500DE9FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD2CD0222EF87400DE9FD6 /* jopFinder */;
+			targetProxy = 84CD2CF4222EF87500DE9FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CD2CD8222EF87500DE9FD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD2CD9222EF87500DE9FD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CD2CE0222EF87500DE9FD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD2CE1222EF87500DE9FD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CD2CFA222EF87500DE9FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84CD2CFB222EF87500DE9FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CD2CFD222EF87500DE9FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586E959DC62DAFD8315FD2C /* Pods-jopFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45QQSC76RU;
+				INFOPLIST_FILE = jopFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsetLogin.jopFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CD2CFE222EF87500DE9FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF24B74259F548B6A6A43B9 /* Pods-jopFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45QQSC76RU;
+				INFOPLIST_FILE = jopFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsetLogin.jopFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84CD2D00222EF87500DE9FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA7DF7B39C1A85F1317C5E4 /* Pods-jopFinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45QQSC76RU;
+				INFOPLIST_FILE = jopFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsetLogin.jopFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jopFinder.app/jopFinder";
+			};
+			name = Debug;
+		};
+		84CD2D01222EF87500DE9FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A83FFC7F0E03409F08B80D2 /* Pods-jopFinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45QQSC76RU;
+				INFOPLIST_FILE = jopFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsetLogin.jopFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jopFinder.app/jopFinder";
+			};
+			name = Release;
+		};
+		84CD2D03222EF87500DE9FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF3704F34E4E0AAC2BEB505 /* Pods-jopFinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45QQSC76RU;
+				INFOPLIST_FILE = jopFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsetLogin.jopFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jopFinder;
+			};
+			name = Debug;
+		};
+		84CD2D04222EF87500DE9FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B79FD4C009573B5A6BFA41 /* Pods-jopFinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45QQSC76RU;
+				INFOPLIST_FILE = jopFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsetLogin.jopFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jopFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CD2CCC222EF87400DE9FD6 /* Build configuration list for PBXProject "jopFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD2CFA222EF87500DE9FD6 /* Debug */,
+				84CD2CFB222EF87500DE9FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD2CFC222EF87500DE9FD6 /* Build configuration list for PBXNativeTarget "jopFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD2CFD222EF87500DE9FD6 /* Debug */,
+				84CD2CFE222EF87500DE9FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD2CFF222EF87500DE9FD6 /* Build configuration list for PBXNativeTarget "jopFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD2D00222EF87500DE9FD6 /* Debug */,
+				84CD2D01222EF87500DE9FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD2D02222EF87500DE9FD6 /* Build configuration list for PBXNativeTarget "jopFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD2D03222EF87500DE9FD6 /* Debug */,
+				84CD2D04222EF87500DE9FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84CD2CDB222EF87500DE9FD6 /* jopFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84CD2CDC222EF87500DE9FD6 /* jopFinder.xcdatamodel */,
+			);
+			currentVersion = 84CD2CDC222EF87500DE9FD6 /* jopFinder.xcdatamodel */;
+			path = jopFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84CD2CC9222EF87400DE9FD6 /* Project object */;
+}

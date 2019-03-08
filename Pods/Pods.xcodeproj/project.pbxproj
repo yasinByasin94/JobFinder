@@ -1,0 +1,1229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077B2EBF0C8B77361E2F685F667449D6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E704A56F1D7DCBDE969D82214544E /* Result.swift */; };
+		0D3069973585E6D945804ADC7BD03F63 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8777173EC46918C81E3FDDC3BA63C /* Networking.swift */; };
+		1057DB42D3018378D7A14C17EB7AA38B /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E60677A2CAA7643EF3C048F839349 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EE449DD43359105657A024B6DE8CB3 /* Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46376ADAAFAEE4BEFA79380F94856499 /* Networking-dummy.m */; };
+		2803E0ADB1F2CAF99C9BFC21B93B105B /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422799B769C9CFD06A45F04024CA1ECB /* TestCheck.swift */; };
+		4D7EC64865A93C9C1E21F089D258A2F8 /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8DC42433514D303FEA844F7540359 /* NetworkActivityIndicator.swift */; };
+		5832AC49312783F73AAD1D2FCAC5226B /* Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2389B0C8F145EA75CB18A40F4B6ECD48 /* Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BA859B2774C78BC1271B1DCFB3BBE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5D8558B5199903C42AEB95760EC111D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5E303B090BCF11C6976D902BFA916E5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		72B16E3655A21248EEBE69238CF31727 /* Networking+HTTPRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30B0E8EFC91691C482ABE19DE5137A /* Networking+HTTPRequests.swift */; };
+		80B95D232A74880639DE64F19355083D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03D3FE6937B278194642E4E89A3C11 /* JSON.swift */; };
+		892BFCF64F9FC12B5F1499113DA237EA /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75073EFA3A22B79C093252CC311C5A4C /* Image.swift */; };
+		8FBBF114475648BCA08523B5C6F7AD27 /* Pods-jopFinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F299E8E06BA1CF7FA0D9CB6474E3D /* Pods-jopFinderTests-dummy.m */; };
+		924BFFD9C82CD385650363988AFD8F7E /* Networking+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8365A665F7EBF70F197F07C2892612 /* Networking+Private.swift */; };
+		9FC00C6E6D923FBE15E8C10D84967132 /* FakeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FFB1AE8956AA6758E2515C8B880251 /* FakeRequest.swift */; };
+		A2977494A933D4947CE00656689A5393 /* GooglePlacesSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF56A3C932745310EBD4A5124E57A4 /* GooglePlacesSearchController.swift */; };
+		BAD33F8C3C5FBC8AE8C7508130319B9F /* GooglePlacesSearchController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE07FC8A304D52BFD425460E7C2092F /* GooglePlacesSearchController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF135A6CD73DED007F9639EE79EF351D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A572D4E5B368370836E34765E52D21 /* Helpers.swift */; };
+		C35BA95C56E36E91AA0EB2E911322E39 /* GooglePlacesSearchController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFEB603C08CB582F17F38586CB0FC7 /* GooglePlacesSearchController-dummy.m */; };
+		C3C96322A58C08F57A8C067A3BE9A687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C42E483EB1A5663CA283114945647023 /* FormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9EC67C7794D6DBCFFEBBFE0D7C7E8C /* FormDataPart.swift */; };
+		C9BCF0571D923EDD2C919A68DCE8420D /* Pods-jopFinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1293E145DEE01FA2912BF195FBF575D9 /* Pods-jopFinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB76F0BAD6683969AC11BB9385E33D0 /* powered-by-google-on-white.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6345A6A38ADA41692E99F03A3549E0 /* powered-by-google-on-white.png */; };
+		CACC6A71ED71E10B2B2F10FD1609C373 /* Pods-jopFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5E29CB4CDC648D60134587D9365F30 /* Pods-jopFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14E885C03A490E4DD4A0BC3768F1726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DBB47433692E431146BF3B17FF1F953C /* powered-by-google-on-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89730DC8970223DA40E1EE99A3169805 /* powered-by-google-on-white@2x.png */; };
+		E22C054267BEF786C9B266ED78DAF97D /* Pods-jopFinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05ABC3EE01D583006930FBCC20407FB4 /* Pods-jopFinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4C091F15713CEADEA81F55965E255F /* Pods-jopFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E8D2B31D63566E4219A53C8F2256E2 /* Pods-jopFinder-dummy.m */; };
+		ED4E38A265EE66182C8CCEA227448206 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0CF41FC3D6C505828AD7AFD0B8B6E /* Response.swift */; };
+		F9980414C5C7CBDF5C9D7F3F37B869FB /* Pods-jopFinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD1CDD4E570BD5D829A01A3380CF6F /* Pods-jopFinderUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F034C83C341A3EFAB28F450CB9B6E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C3648F20B5B9D8F745B739C2B8E452;
+			remoteInfo = "Pods-jopFinder";
+		};
+		7A70D37A4E1D469C2ACDB65A092B2DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB97C5A49BA679795D27B84CF739AC03;
+			remoteInfo = GooglePlacesSearchController;
+		};
+		8A635928190AEDD01193C5CED763F02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF37DFFC8B63D4E155AF40B807E1EBEA;
+			remoteInfo = Networking;
+		};
+		C0E1AB8D00767C55E62F88B25D735099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C3648F20B5B9D8F745B739C2B8E452;
+			remoteInfo = "Pods-jopFinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05ABC3EE01D583006930FBCC20407FB4 /* Pods-jopFinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jopFinderTests-umbrella.h"; sourceTree = "<group>"; };
+		06C8777173EC46918C81E3FDDC3BA63C /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/Networking.swift; sourceTree = "<group>"; };
+		1293E145DEE01FA2912BF195FBF575D9 /* Pods-jopFinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jopFinderUITests-umbrella.h"; sourceTree = "<group>"; };
+		13E0CF41FC3D6C505828AD7AFD0B8B6E /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Response.swift; sourceTree = "<group>"; };
+		16DE706677D05CCD995820D5C11F815F /* Networking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Networking-Info.plist"; sourceTree = "<group>"; };
+		170A8737F4D8E01C1D48F3181EC1D85A /* Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Networking.modulemap; sourceTree = "<group>"; };
+		1DFD1CDD4E570BD5D829A01A3380CF6F /* Pods-jopFinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jopFinderUITests-dummy.m"; sourceTree = "<group>"; };
+		1F930325FC8531FCFE83EA33E39E39AB /* Pods-jopFinderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jopFinderTests-Info.plist"; sourceTree = "<group>"; };
+		2389B0C8F145EA75CB18A40F4B6ECD48 /* Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-umbrella.h"; sourceTree = "<group>"; };
+		27449E888C64FDB3F9DEE80666C56057 /* Pods_jopFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jopFinderTests.framework; path = "Pods-jopFinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34067108874F63D6B11FCE13566F726D /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Networking.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38660580CE3A204BD3C2FFC19C7091EB /* Pods-jopFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jopFinder-frameworks.sh"; sourceTree = "<group>"; };
+		388D42812E7C7C6C0807F952B6B9885F /* Pods-jopFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jopFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		397C434BC813EFC011E2A65EC3104008 /* Pods-jopFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jopFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B5BED057FE0FA6C6AA961DF57CF7011 /* GooglePlacesSearchController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GooglePlacesSearchController.framework; path = GooglePlacesSearchController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAFEB603C08CB582F17F38586CB0FC7 /* GooglePlacesSearchController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GooglePlacesSearchController-dummy.m"; sourceTree = "<group>"; };
+		3E0E704A56F1D7DCBDE969D82214544E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		422799B769C9CFD06A45F04024CA1ECB /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = Sources/TestCheck.swift; sourceTree = "<group>"; };
+		46376ADAAFAEE4BEFA79380F94856499 /* Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Networking-dummy.m"; sourceTree = "<group>"; };
+		468B863B30D2128CC885702FD4EE7718 /* Pods-jopFinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jopFinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46A0662D7A4B591E140BCDB82DB63F0E /* Pods-jopFinderUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jopFinderUITests-Info.plist"; sourceTree = "<group>"; };
+		4AE07FC8A304D52BFD425460E7C2092F /* GooglePlacesSearchController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GooglePlacesSearchController-umbrella.h"; sourceTree = "<group>"; };
+		50E8D2B31D63566E4219A53C8F2256E2 /* Pods-jopFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jopFinder-dummy.m"; sourceTree = "<group>"; };
+		52ACD89F83BC2B87ADBE648B5870B722 /* Pods-jopFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jopFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B9B12E5B75832F47AF4E36ADE33BA9C /* Pods_jopFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jopFinderUITests.framework; path = "Pods-jopFinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9EC67C7794D6DBCFFEBBFE0D7C7E8C /* FormDataPart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataPart.swift; path = Sources/FormDataPart.swift; sourceTree = "<group>"; };
+		5CB0728C8E7219C4BD376F692E9024BA /* Pods-jopFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jopFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		626D64016A207392E223CD3395EB407A /* Pods-jopFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jopFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A87F60B2915FE14AF733F22B455EFD8 /* Pods-jopFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jopFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		712603E852AF67D3C8BA01C49C8A774F /* Pods-jopFinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jopFinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		717E60677A2CAA7643EF3C048F839349 /* Networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Networking.h; path = Sources/Networking.h; sourceTree = "<group>"; };
+		72CD4CF74A4F468A550D462F6180B273 /* Pods-jopFinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jopFinderUITests.modulemap"; sourceTree = "<group>"; };
+		7463B114EFC144890C5B3B4D81A22A92 /* GooglePlacesSearchController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GooglePlacesSearchController-Info.plist"; sourceTree = "<group>"; };
+		75073EFA3A22B79C093252CC311C5A4C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		78FFB1AE8956AA6758E2515C8B880251 /* FakeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeRequest.swift; path = Sources/FakeRequest.swift; sourceTree = "<group>"; };
+		7CBEA0AA014D3E4190AF606E3A758B13 /* Pods_jopFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jopFinder.framework; path = "Pods-jopFinder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E25AC86DEE0838A961FC8619D3D2832 /* Pods-jopFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jopFinder.modulemap"; sourceTree = "<group>"; };
+		828E2F5DBA08545B80B78C7D53BCAA97 /* Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-prefix.pch"; sourceTree = "<group>"; };
+		83AFE04E90DC7B3A0E562B03711B90A4 /* Pods-jopFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jopFinder-Info.plist"; sourceTree = "<group>"; };
+		87E251E683B1B9A0696856BFF95600F7 /* GooglePlacesSearchController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GooglePlacesSearchController.modulemap; sourceTree = "<group>"; };
+		89730DC8970223DA40E1EE99A3169805 /* powered-by-google-on-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "powered-by-google-on-white@2x.png"; path = "Pod/Assets/powered-by-google-on-white@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A035A2EB7888F7E8373C42A5B098B8FC /* Pods-jopFinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jopFinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4786A71867429D51735017EC5CB6D2E /* GooglePlacesSearchController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GooglePlacesSearchController-prefix.pch"; sourceTree = "<group>"; };
+		A6B34DFB403393038186BD02E45B009D /* Pods-jopFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jopFinder.release.xcconfig"; sourceTree = "<group>"; };
+		AA03D3FE6937B278194642E4E89A3C11 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		AED734712E63079A1751DE33D36B5D6D /* Networking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.xcconfig; sourceTree = "<group>"; };
+		B4F742FC24DBD2F45C2747E87BD00B2E /* Pods-jopFinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jopFinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C22F299E8E06BA1CF7FA0D9CB6474E3D /* Pods-jopFinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jopFinderTests-dummy.m"; sourceTree = "<group>"; };
+		CE5E29CB4CDC648D60134587D9365F30 /* Pods-jopFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jopFinder-umbrella.h"; sourceTree = "<group>"; };
+		DA690AD8B13301653992C35F22B4936C /* GooglePlacesSearchController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlacesSearchController.xcconfig; sourceTree = "<group>"; };
+		E3DF56A3C932745310EBD4A5124E57A4 /* GooglePlacesSearchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlacesSearchController.swift; path = Pod/Classes/GooglePlacesSearchController.swift; sourceTree = "<group>"; };
+		E7CD91AFBCFB08DBDBC931E4C4578665 /* Pods-jopFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jopFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		E7FDA957BBB3B43F43FC4ADB3C94F7BF /* Pods-jopFinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jopFinderTests.modulemap"; sourceTree = "<group>"; };
+		EC30B0E8EFC91691C482ABE19DE5137A /* Networking+HTTPRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+HTTPRequests.swift"; path = "Sources/Networking+HTTPRequests.swift"; sourceTree = "<group>"; };
+		EC8365A665F7EBF70F197F07C2892612 /* Networking+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Private.swift"; path = "Sources/Networking+Private.swift"; sourceTree = "<group>"; };
+		EE6345A6A38ADA41692E99F03A3549E0 /* powered-by-google-on-white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "powered-by-google-on-white.png"; path = "Pod/Assets/powered-by-google-on-white.png"; sourceTree = "<group>"; };
+		F3A572D4E5B368370836E34765E52D21 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		F8A8DC42433514D303FEA844F7540359 /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Sources/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222756637A9542D63D1695B6401885C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E303B090BCF11C6976D902BFA916E5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C25D276951534CB4B07DBCA091D3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C96322A58C08F57A8C067A3BE9A687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76FC69864CF0F6F88C3FB7856FF2BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14E885C03A490E4DD4A0BC3768F1726 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6465F799364669279FCF02C6B9AF05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BA859B2774C78BC1271B1DCFB3BBE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7AD1C7019C76EB1836E44294C22487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8558B5199903C42AEB95760EC111D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B71F3A6DCD7160FB0DADCE75E7C3AD /* Pods-jopFinder */ = {
+			isa = PBXGroup;
+			children = (
+				7E25AC86DEE0838A961FC8619D3D2832 /* Pods-jopFinder.modulemap */,
+				388D42812E7C7C6C0807F952B6B9885F /* Pods-jopFinder-acknowledgements.markdown */,
+				6A87F60B2915FE14AF733F22B455EFD8 /* Pods-jopFinder-acknowledgements.plist */,
+				50E8D2B31D63566E4219A53C8F2256E2 /* Pods-jopFinder-dummy.m */,
+				38660580CE3A204BD3C2FFC19C7091EB /* Pods-jopFinder-frameworks.sh */,
+				83AFE04E90DC7B3A0E562B03711B90A4 /* Pods-jopFinder-Info.plist */,
+				CE5E29CB4CDC648D60134587D9365F30 /* Pods-jopFinder-umbrella.h */,
+				E7CD91AFBCFB08DBDBC931E4C4578665 /* Pods-jopFinder.debug.xcconfig */,
+				A6B34DFB403393038186BD02E45B009D /* Pods-jopFinder.release.xcconfig */,
+			);
+			name = "Pods-jopFinder";
+			path = "Target Support Files/Pods-jopFinder";
+			sourceTree = "<group>";
+		};
+		2B96963A5DA5356E8C0F796419E246B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5BED057FE0FA6C6AA961DF57CF7011 /* GooglePlacesSearchController.framework */,
+				34067108874F63D6B11FCE13566F726D /* Networking.framework */,
+				7CBEA0AA014D3E4190AF606E3A758B13 /* Pods_jopFinder.framework */,
+				27449E888C64FDB3F9DEE80666C56057 /* Pods_jopFinderTests.framework */,
+				5B9B12E5B75832F47AF4E36ADE33BA9C /* Pods_jopFinderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307D5C689A484C4CF28E25C98C87F00E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E251E683B1B9A0696856BFF95600F7 /* GooglePlacesSearchController.modulemap */,
+				DA690AD8B13301653992C35F22B4936C /* GooglePlacesSearchController.xcconfig */,
+				3BAFEB603C08CB582F17F38586CB0FC7 /* GooglePlacesSearchController-dummy.m */,
+				7463B114EFC144890C5B3B4D81A22A92 /* GooglePlacesSearchController-Info.plist */,
+				A4786A71867429D51735017EC5CB6D2E /* GooglePlacesSearchController-prefix.pch */,
+				4AE07FC8A304D52BFD425460E7C2092F /* GooglePlacesSearchController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlacesSearchController";
+			sourceTree = "<group>";
+		};
+		41EBA68DBE88F6D682E0E871EFE9B7F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE6345A6A38ADA41692E99F03A3549E0 /* powered-by-google-on-white.png */,
+				89730DC8970223DA40E1EE99A3169805 /* powered-by-google-on-white@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		436C30B4DA56EFC11F2715F67BA3B0BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12B71F3A6DCD7160FB0DADCE75E7C3AD /* Pods-jopFinder */,
+				8E7AA0E251BE11511BE100491A4D1F58 /* Pods-jopFinderTests */,
+				DF4F2D1FCD72B02BBB2DC1688F2443FB /* Pods-jopFinderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		50B760A5571414E12DF99F933B049B4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				170A8737F4D8E01C1D48F3181EC1D85A /* Networking.modulemap */,
+				AED734712E63079A1751DE33D36B5D6D /* Networking.xcconfig */,
+				46376ADAAFAEE4BEFA79380F94856499 /* Networking-dummy.m */,
+				16DE706677D05CCD995820D5C11F815F /* Networking-Info.plist */,
+				828E2F5DBA08545B80B78C7D53BCAA97 /* Networking-prefix.pch */,
+				2389B0C8F145EA75CB18A40F4B6ECD48 /* Networking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Networking";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AA3265553900C705115A740DE07FA34 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				78FFB1AE8956AA6758E2515C8B880251 /* FakeRequest.swift */,
+				5B9EC67C7794D6DBCFFEBBFE0D7C7E8C /* FormDataPart.swift */,
+				F3A572D4E5B368370836E34765E52D21 /* Helpers.swift */,
+				75073EFA3A22B79C093252CC311C5A4C /* Image.swift */,
+				AA03D3FE6937B278194642E4E89A3C11 /* JSON.swift */,
+				F8A8DC42433514D303FEA844F7540359 /* NetworkActivityIndicator.swift */,
+				717E60677A2CAA7643EF3C048F839349 /* Networking.h */,
+				06C8777173EC46918C81E3FDDC3BA63C /* Networking.swift */,
+				EC30B0E8EFC91691C482ABE19DE5137A /* Networking+HTTPRequests.swift */,
+				EC8365A665F7EBF70F197F07C2892612 /* Networking+Private.swift */,
+				13E0CF41FC3D6C505828AD7AFD0B8B6E /* Response.swift */,
+				3E0E704A56F1D7DCBDE969D82214544E /* Result.swift */,
+				422799B769C9CFD06A45F04024CA1ECB /* TestCheck.swift */,
+				50B760A5571414E12DF99F933B049B4C /* Support Files */,
+			);
+			name = Networking;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A06F795E1446DBFE044EFC2097D2F3F9 /* Pods */,
+				2B96963A5DA5356E8C0F796419E246B3 /* Products */,
+				436C30B4DA56EFC11F2715F67BA3B0BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7AA0E251BE11511BE100491A4D1F58 /* Pods-jopFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7FDA957BBB3B43F43FC4ADB3C94F7BF /* Pods-jopFinderTests.modulemap */,
+				468B863B30D2128CC885702FD4EE7718 /* Pods-jopFinderTests-acknowledgements.markdown */,
+				712603E852AF67D3C8BA01C49C8A774F /* Pods-jopFinderTests-acknowledgements.plist */,
+				C22F299E8E06BA1CF7FA0D9CB6474E3D /* Pods-jopFinderTests-dummy.m */,
+				1F930325FC8531FCFE83EA33E39E39AB /* Pods-jopFinderTests-Info.plist */,
+				05ABC3EE01D583006930FBCC20407FB4 /* Pods-jopFinderTests-umbrella.h */,
+				626D64016A207392E223CD3395EB407A /* Pods-jopFinderTests.debug.xcconfig */,
+				5CB0728C8E7219C4BD376F692E9024BA /* Pods-jopFinderTests.release.xcconfig */,
+			);
+			name = "Pods-jopFinderTests";
+			path = "Target Support Files/Pods-jopFinderTests";
+			sourceTree = "<group>";
+		};
+		A06F795E1446DBFE044EFC2097D2F3F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA9FA22CB53770F6A82DF441A3233D /* GooglePlacesSearchController */,
+				6AA3265553900C705115A740DE07FA34 /* Networking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4F2D1FCD72B02BBB2DC1688F2443FB /* Pods-jopFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72CD4CF74A4F468A550D462F6180B273 /* Pods-jopFinderUITests.modulemap */,
+				A035A2EB7888F7E8373C42A5B098B8FC /* Pods-jopFinderUITests-acknowledgements.markdown */,
+				B4F742FC24DBD2F45C2747E87BD00B2E /* Pods-jopFinderUITests-acknowledgements.plist */,
+				1DFD1CDD4E570BD5D829A01A3380CF6F /* Pods-jopFinderUITests-dummy.m */,
+				46A0662D7A4B591E140BCDB82DB63F0E /* Pods-jopFinderUITests-Info.plist */,
+				1293E145DEE01FA2912BF195FBF575D9 /* Pods-jopFinderUITests-umbrella.h */,
+				52ACD89F83BC2B87ADBE648B5870B722 /* Pods-jopFinderUITests.debug.xcconfig */,
+				397C434BC813EFC011E2A65EC3104008 /* Pods-jopFinderUITests.release.xcconfig */,
+			);
+			name = "Pods-jopFinderUITests";
+			path = "Target Support Files/Pods-jopFinderUITests";
+			sourceTree = "<group>";
+		};
+		E7FA9FA22CB53770F6A82DF441A3233D /* GooglePlacesSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				E3DF56A3C932745310EBD4A5124E57A4 /* GooglePlacesSearchController.swift */,
+				41EBA68DBE88F6D682E0E871EFE9B7F4 /* Resources */,
+				307D5C689A484C4CF28E25C98C87F00E /* Support Files */,
+			);
+			name = GooglePlacesSearchController;
+			path = GooglePlacesSearchController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2854B24D7CE3EA7A75D60A9571B21AFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22C054267BEF786C9B266ED78DAF97D /* Pods-jopFinderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CBF502841DB64CE5DD43222CE2476 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACC6A71ED71E10B2B2F10FD1609C373 /* Pods-jopFinder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A41957CB0CD34E43C616378C667388 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BCF0571D923EDD2C919A68DCE8420D /* Pods-jopFinderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745954511FCFAB85677F6B2FE18CC23F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5832AC49312783F73AAD1D2FCAC5226B /* Networking-umbrella.h in Headers */,
+				1057DB42D3018378D7A14C17EB7AA38B /* Networking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C9BE92314CF5AA626DFBE854C5CF28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD33F8C3C5FBC8AE8C7508130319B9F /* GooglePlacesSearchController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09C3648F20B5B9D8F745B739C2B8E452 /* Pods-jopFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D01B7F7826C79319F8F95324FC46006 /* Build configuration list for PBXNativeTarget "Pods-jopFinder" */;
+			buildPhases = (
+				4B3CBF502841DB64CE5DD43222CE2476 /* Headers */,
+				136E5B80A822E61FFCB712518DDD77C3 /* Sources */,
+				A76FC69864CF0F6F88C3FB7856FF2BC1 /* Frameworks */,
+				DED7CE6EB1D9E7AD41CF60505B23CB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29592B0404C21877EF836114F8425BAC /* PBXTargetDependency */,
+				959996A0D909781F75807BC8A2E2F8DA /* PBXTargetDependency */,
+			);
+			name = "Pods-jopFinder";
+			productName = "Pods-jopFinder";
+			productReference = 7CBEA0AA014D3E4190AF606E3A758B13 /* Pods_jopFinder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59EBEA3A3E39EEEBCE6D5EA07891B0C0 /* Pods-jopFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24637672F294EC6273A0ABA2F73CF48A /* Build configuration list for PBXNativeTarget "Pods-jopFinderUITests" */;
+			buildPhases = (
+				73A41957CB0CD34E43C616378C667388 /* Headers */,
+				719F996AAF0FE4FAB26E0264D3CA9FBE /* Sources */,
+				222756637A9542D63D1695B6401885C3 /* Frameworks */,
+				A69FF3364DAC28C2646AE077F2171FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83165235E390EDD220A52430A7CF2812 /* PBXTargetDependency */,
+			);
+			name = "Pods-jopFinderUITests";
+			productName = "Pods-jopFinderUITests";
+			productReference = 5B9B12E5B75832F47AF4E36ADE33BA9C /* Pods_jopFinderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68CDB6378DF7A245949CEEF2CB2151C5 /* Pods-jopFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D39E6FBCB37E6D4D3DF3B7D3D641426 /* Build configuration list for PBXNativeTarget "Pods-jopFinderTests" */;
+			buildPhases = (
+				2854B24D7CE3EA7A75D60A9571B21AFB /* Headers */,
+				17AA8C7ADE22B0B2AAEE87F032D7914F /* Sources */,
+				EB7AD1C7019C76EB1836E44294C22487 /* Frameworks */,
+				1164F26E1F799F40A0D403A5638B503B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993F5C56DB9D2B224A85AA0372FA99F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-jopFinderTests";
+			productName = "Pods-jopFinderTests";
+			productReference = 27449E888C64FDB3F9DEE80666C56057 /* Pods_jopFinderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF37DFFC8B63D4E155AF40B807E1EBEA /* Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E24EDF9762BF1153C36CC994F4CAF7 /* Build configuration list for PBXNativeTarget "Networking" */;
+			buildPhases = (
+				745954511FCFAB85677F6B2FE18CC23F /* Headers */,
+				CF241FD4B3A7B5BDB9F90C69AC7DFC76 /* Sources */,
+				E6465F799364669279FCF02C6B9AF05C /* Frameworks */,
+				811385778F05C6926F91C81A2AA00DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Networking;
+			productName = Networking;
+			productReference = 34067108874F63D6B11FCE13566F726D /* Networking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB97C5A49BA679795D27B84CF739AC03 /* GooglePlacesSearchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24920A316E0772613A2C5030088A3752 /* Build configuration list for PBXNativeTarget "GooglePlacesSearchController" */;
+			buildPhases = (
+				98C9BE92314CF5AA626DFBE854C5CF28 /* Headers */,
+				1A463238CF44A3576B946B6C4852FBE4 /* Sources */,
+				55C25D276951534CB4B07DBCA091D3DC /* Frameworks */,
+				61A2214FDD58311BA0FF9299E4A8EB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlacesSearchController;
+			productName = GooglePlacesSearchController;
+			productReference = 3B5BED057FE0FA6C6AA961DF57CF7011 /* GooglePlacesSearchController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2B96963A5DA5356E8C0F796419E246B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB97C5A49BA679795D27B84CF739AC03 /* GooglePlacesSearchController */,
+				AF37DFFC8B63D4E155AF40B807E1EBEA /* Networking */,
+				09C3648F20B5B9D8F745B739C2B8E452 /* Pods-jopFinder */,
+				68CDB6378DF7A245949CEEF2CB2151C5 /* Pods-jopFinderTests */,
+				59EBEA3A3E39EEEBCE6D5EA07891B0C0 /* Pods-jopFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1164F26E1F799F40A0D403A5638B503B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A2214FDD58311BA0FF9299E4A8EB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB76F0BAD6683969AC11BB9385E33D0 /* powered-by-google-on-white.png in Resources */,
+				DBB47433692E431146BF3B17FF1F953C /* powered-by-google-on-white@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811385778F05C6926F91C81A2AA00DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69FF3364DAC28C2646AE077F2171FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED7CE6EB1D9E7AD41CF60505B23CB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136E5B80A822E61FFCB712518DDD77C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4C091F15713CEADEA81F55965E255F /* Pods-jopFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AA8C7ADE22B0B2AAEE87F032D7914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBBF114475648BCA08523B5C6F7AD27 /* Pods-jopFinderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A463238CF44A3576B946B6C4852FBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35BA95C56E36E91AA0EB2E911322E39 /* GooglePlacesSearchController-dummy.m in Sources */,
+				A2977494A933D4947CE00656689A5393 /* GooglePlacesSearchController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719F996AAF0FE4FAB26E0264D3CA9FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9980414C5C7CBDF5C9D7F3F37B869FB /* Pods-jopFinderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF241FD4B3A7B5BDB9F90C69AC7DFC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC00C6E6D923FBE15E8C10D84967132 /* FakeRequest.swift in Sources */,
+				C42E483EB1A5663CA283114945647023 /* FormDataPart.swift in Sources */,
+				BF135A6CD73DED007F9639EE79EF351D /* Helpers.swift in Sources */,
+				892BFCF64F9FC12B5F1499113DA237EA /* Image.swift in Sources */,
+				80B95D232A74880639DE64F19355083D /* JSON.swift in Sources */,
+				4D7EC64865A93C9C1E21F089D258A2F8 /* NetworkActivityIndicator.swift in Sources */,
+				72B16E3655A21248EEBE69238CF31727 /* Networking+HTTPRequests.swift in Sources */,
+				924BFFD9C82CD385650363988AFD8F7E /* Networking+Private.swift in Sources */,
+				24EE449DD43359105657A024B6DE8CB3 /* Networking-dummy.m in Sources */,
+				0D3069973585E6D945804ADC7BD03F63 /* Networking.swift in Sources */,
+				ED4E38A265EE66182C8CCEA227448206 /* Response.swift in Sources */,
+				077B2EBF0C8B77361E2F685F667449D6 /* Result.swift in Sources */,
+				2803E0ADB1F2CAF99C9BFC21B93B105B /* TestCheck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29592B0404C21877EF836114F8425BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlacesSearchController;
+			target = EB97C5A49BA679795D27B84CF739AC03 /* GooglePlacesSearchController */;
+			targetProxy = 7A70D37A4E1D469C2ACDB65A092B2DA6 /* PBXContainerItemProxy */;
+		};
+		83165235E390EDD220A52430A7CF2812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-jopFinder";
+			target = 09C3648F20B5B9D8F745B739C2B8E452 /* Pods-jopFinder */;
+			targetProxy = 2F034C83C341A3EFAB28F450CB9B6E38 /* PBXContainerItemProxy */;
+		};
+		959996A0D909781F75807BC8A2E2F8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Networking;
+			target = AF37DFFC8B63D4E155AF40B807E1EBEA /* Networking */;
+			targetProxy = 8A635928190AEDD01193C5CED763F02B /* PBXContainerItemProxy */;
+		};
+		993F5C56DB9D2B224A85AA0372FA99F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-jopFinder";
+			target = 09C3648F20B5B9D8F745B739C2B8E452 /* Pods-jopFinder */;
+			targetProxy = C0E1AB8D00767C55E62F88B25D735099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C31E288615ACBBA5BBEF48F5CC433F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626D64016A207392E223CD3395EB407A /* Pods-jopFinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-jopFinderTests/Pods-jopFinderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-jopFinderTests/Pods-jopFinderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C8BB8E4254F47EAB4E70C4AC7B1AD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED734712E63079A1751DE33D36B5D6D /* Networking.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Networking/Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Networking/Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Networking/Networking.modulemap";
+				PRODUCT_MODULE_NAME = Networking;
+				PRODUCT_NAME = Networking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		537B62B7037A28965838D6C0640731FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA690AD8B13301653992C35F22B4936C /* GooglePlacesSearchController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController.modulemap";
+				PRODUCT_MODULE_NAME = GooglePlacesSearchController;
+				PRODUCT_NAME = GooglePlacesSearchController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D5D1F226A80C0A9A48EB28775260466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED734712E63079A1751DE33D36B5D6D /* Networking.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Networking/Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Networking/Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Networking/Networking.modulemap";
+				PRODUCT_MODULE_NAME = Networking;
+				PRODUCT_NAME = Networking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78422C27DE78CDC86582B5B6ED11BFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA690AD8B13301653992C35F22B4936C /* GooglePlacesSearchController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController.modulemap";
+				PRODUCT_MODULE_NAME = GooglePlacesSearchController;
+				PRODUCT_NAME = GooglePlacesSearchController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8824B17E228DB796AE76F2DABB9C21F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB0728C8E7219C4BD376F692E9024BA /* Pods-jopFinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-jopFinderTests/Pods-jopFinderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-jopFinderTests/Pods-jopFinderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A5E143131CB8D9CC4C3FDA71155C11BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52ACD89F83BC2B87ADBE648B5870B722 /* Pods-jopFinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-jopFinderUITests/Pods-jopFinderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-jopFinderUITests/Pods-jopFinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A80137F73412DDFD16E81AE3FC626EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CD91AFBCFB08DBDBC931E4C4578665 /* Pods-jopFinder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-jopFinder/Pods-jopFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-jopFinder/Pods-jopFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB029FCC68898977E88AC5BB2E699C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397C434BC813EFC011E2A65EC3104008 /* Pods-jopFinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-jopFinderUITests/Pods-jopFinderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-jopFinderUITests/Pods-jopFinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E13EDD80D96CE9CD0D9EFFE208A48AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B34DFB403393038186BD02E45B009D /* Pods-jopFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-jopFinder/Pods-jopFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-jopFinder/Pods-jopFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D39E6FBCB37E6D4D3DF3B7D3D641426 /* Build configuration list for PBXNativeTarget "Pods-jopFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C31E288615ACBBA5BBEF48F5CC433F /* Debug */,
+				8824B17E228DB796AE76F2DABB9C21F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24637672F294EC6273A0ABA2F73CF48A /* Build configuration list for PBXNativeTarget "Pods-jopFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E143131CB8D9CC4C3FDA71155C11BD /* Debug */,
+				CB029FCC68898977E88AC5BB2E699C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24920A316E0772613A2C5030088A3752 /* Build configuration list for PBXNativeTarget "GooglePlacesSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78422C27DE78CDC86582B5B6ED11BFB6 /* Debug */,
+				537B62B7037A28965838D6C0640731FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D01B7F7826C79319F8F95324FC46006 /* Build configuration list for PBXNativeTarget "Pods-jopFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80137F73412DDFD16E81AE3FC626EDF /* Debug */,
+				E13EDD80D96CE9CD0D9EFFE208A48AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E24EDF9762BF1153C36CC994F4CAF7 /* Build configuration list for PBXNativeTarget "Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5D1F226A80C0A9A48EB28775260466 /* Debug */,
+				4C8BB8E4254F47EAB4E70C4AC7B1AD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
