@@ -7,3 +7,7 @@ JobFinder is a job search solution that looks into many providers and display re
 ```bash
 $pod install
 ```
+#Filters
+• By provider
+• By position
+• By Location (autocomplete) using Google APIs
