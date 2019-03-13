@@ -17,3 +17,8 @@ $pod install
 - By provider
 - By position
 - By Location (autocomplete) using Google APIs
+
+## Used
+- enter search key
+- select location
+- and select Provider Github or search.gov
